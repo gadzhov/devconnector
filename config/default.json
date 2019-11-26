@@ -1,3 +1,4 @@
 {
-  "mongoURI": "mongodb+srv://gadzhov:1234@devconnector-glder.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI": "mongodb+srv://gadzhov:1234@devconnector-glder.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "b551419c-bc4e-449c-9a92-8372d29d61fd"
 }
