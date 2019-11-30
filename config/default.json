@@ -2,5 +2,5 @@
   "mongoURI": "",
   "jwtSecret": "",
   "githubClientID": "",
-  "githybSecret": ""
+  "githubSecret": ""
 }
