@@ -1,7 +1,6 @@
 import React, { Fragment, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
-import spinner from '../layout/Spinner';
 import { getProfiles } from '../../actions/profile';
 import Spinner from '../layout/Spinner';
 import ProfileItem from './ProfileItem';
@@ -9,7 +8,7 @@ import ProfileItem from './ProfileItem';
 const Profiles = ({ getProfiles, profile: { profiles, loading } }) => {
   useEffect(() => {
     getProfiles();
-  }, []);
+  }, [getProfiles]);
 
   return (
     <Fragment>
