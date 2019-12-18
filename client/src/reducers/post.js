@@ -71,7 +71,7 @@ export default function(state = initialState, action) {
         ...state,
         post: {
           ...state.post,
-          comments: state.posts.comment.filter(
+          comments: state.post.comments.filter(
             comment => comment._id !== payload
           )
         },
