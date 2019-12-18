@@ -131,9 +131,10 @@ router.put('/like/:id', auth, async (req, resp) => {
     }
 
     post.likes.unshift({ user: req.user.id });
-    console.log(post.likes);
 
     await post.save();
+
+    resp.json(post.likes);
   } catch (err) {
     if (err.kind === 'ObjectId') {
       return resp.status(404).json({ msg: 'Post not found' });
