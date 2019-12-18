@@ -1,10 +1,16 @@
 # devconnector
+
 Social network for developers
 
-I've build this aplication using 
-* Node.js
-* ReactJS
-* React Redux 
-* MongoDB.
+I've build this aplication using:
+
+- Node.js
+- ReactJS
+- React Redux
+- MongoDB.
+
+## License
+
+MIT
 
 [Demo](https://protected-wave-48479.herokuapp.com/)
