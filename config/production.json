@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://gadzhov:XSVIV65L9jG4ns6F@devconnector-glder.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "437f19de-15b3-4cc3-9a02-9e87b65cef4b",
+  "githubClientID": "0a9eb128346c69d9e6a8",
+  "githubSecret": "927962b5f0d00ed1e9a5357ed9c902e0f61dd753"
+}
